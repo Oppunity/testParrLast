@@ -1,0 +1,26 @@
+{
+	"auth": {
+		"testparrlast72a1283772a12837": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {
+		"testparrlast": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authtestparrlast72a1283772a12837"
+						}
+					}
+				}
+			}
+		}
+	}
+}

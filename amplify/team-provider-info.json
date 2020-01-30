@@ -1,0 +1,20 @@
+{
+    "testplast": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-testparrlast-testplast-213010-authRole",
+            "UnauthRoleArn": "arn:aws:iam::811287877546:role/amplify-testparrlast-testplast-213010-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::811287877546:role/amplify-testparrlast-testplast-213010-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-testparrlast-testplast-213010-deployment",
+            "UnauthRoleName": "amplify-testparrlast-testplast-213010-unauthRole",
+            "StackName": "amplify-testparrlast-testplast-213010",
+            "StackId": "arn:aws:cloudformation:us-west-2:811287877546:stack/amplify-testparrlast-testplast-213010/96553610-4321-11ea-a3e8-0a2c4898daa4",
+            "AmplifyAppId": "db439qvwdvtag"
+        },
+        "categories": {
+            "auth": {
+                "testparrlast72a1283772a12837": {}
+            }
+        }
+    }
+}

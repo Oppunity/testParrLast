@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "testparrlast",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authtestparrlast72a1283772a12837",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
